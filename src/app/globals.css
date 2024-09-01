@@ -2,38 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  color: #000;
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      #fff) #D6DBDC;
 }
 
 .input-field {
   height: 40px;
 }
 
-.input-field, textarea {
+.input-field,
+textarea {
   padding: 10px;
   margin: 10px 0 5px;
-  border: 1px solid rgb(var(--foreground-rgb));
+  border-width: 2px;
   border-radius: 5px;
 }
 
@@ -41,8 +25,11 @@ body {
   @apply py-[10px] px-[20px] border border-cyan-950 rounded-lg transition-all md:hover:bg-cyan-950 md:hover:text-white;
 }
 
-.error { 
-  color: red;
+.error {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  color: #ff0000;
 }
 
 @layer utilities {

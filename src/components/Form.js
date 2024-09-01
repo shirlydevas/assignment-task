@@ -16,9 +16,10 @@ export default function Form() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setData({ ...data, [name]: value });
+    if (errors[name]) {
+      validateField(name, value);
+    }
   };
-
-  console.log(data, 'data');
 
   const validateField = (name, value) => {
     let error = '';
@@ -99,7 +100,7 @@ export default function Form() {
   return (
     <div className='md:w-[60%] w-full my-0 mx-auto'>
       <form onSubmit={handleSubmit} className='flex flex-col gap-10'>
-        <div className='flex flex-col'>
+        <div className='flex flex-col relative'>
           <label htmlFor="name">Name*</label>
           <input
             type="text"
@@ -108,11 +109,11 @@ export default function Form() {
             value={data.name}
             onChange={handleChange}
             onBlur={handleBlur}
-            className='input-field'
+            className={`input-field ${errors.name ? 'border-red-700' : 'border-gray-500'}`}
           />
           {errors.name && <span className="error">{errors.name}</span>}
         </div>
-        <div className='flex flex-col'>
+        <div className='flex flex-col relative'>
           <label htmlFor="email">Email*</label>
           <input
             type="email"
@@ -121,11 +122,11 @@ export default function Form() {
             value={data.email}
             onChange={handleChange}
             onBlur={handleBlur}
-            className='input-field'
+            className={`input-field ${errors.email ? 'border-red-700' : 'border-gray-500'}`}
           />
           {errors.email && <span className="error">{errors.email}</span>}
         </div>
-        <div className='flex flex-col'>
+        <div className='flex flex-col relative'>
           <label htmlFor="phone">Phone Number*</label>
           <input
             type="text"
@@ -134,7 +135,7 @@ export default function Form() {
             value={data.phone}
             onChange={handleChange}
             onBlur={handleBlur}
-            className='input-field'
+            className={`input-field ${errors.phone ? 'border-red-700' : 'border-gray-500'}`}
           />
           {errors.phone && <span className="error">{errors.phone}</span>}
         </div>
@@ -148,6 +149,7 @@ export default function Form() {
             rows={10}
             cols={10}
             draggable={false}
+            className='border-gray-500'
           />
         </div>
         <div>

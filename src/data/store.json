@@ -1,0 +1,162 @@
+{
+  "Delhi": {
+    "New Delhi": [
+      {
+        "name": "Connaught Place Bazaar",
+        "latitude": 28.6333,
+        "longitude": 77.2167,
+        "description": "A vibrant market located in the heart of New Delhi, offering a wide range of goods from electronics to clothing. A favorite spot for shoppers and tourists."
+      },
+      {
+        "name": "Chandni Chowk",
+        "latitude": 28.6562,
+        "longitude": 77.2301,
+        "description": "A historic market offering a wide range of products including textiles, jewelry, spices, and street food. A must-visit for an authentic Delhi experience."
+      }
+    ],
+    "Old Delhi": [
+      {
+        "name": "Sarojini Nagar Market",
+        "latitude": 28.5748,
+        "longitude": 77.1992,
+        "description": "A bustling market famous for its affordable fashion, accessories, and home decor items. A favorite among students and young professionals."
+      },
+      {
+        "name": "Dilli Haat",
+        "latitude": 28.5708,
+        "longitude": 77.2100,
+        "description": "An open-air market featuring crafts, food, and cultural performances from across India. A great place to buy souvenirs and sample regional cuisine."
+      }
+    ]
+  },
+  "Maharashtra": {
+    "Pune": [
+      {
+        "name": "Deccan Grocers",
+        "latitude": 18.5204,
+        "longitude": 73.8567,
+        "description": "A popular grocery store offering a wide range of local and international products, known for its fresh produce and reasonable prices."
+      },
+      {
+        "name": "Koregaon Park Essentials",
+        "latitude": 18.5363,
+        "longitude": 73.8970,
+        "description": "A boutique store in Koregaon Park offering organic and gourmet products along with a selection of fine wines and spirits."
+      },
+      {
+        "name": "Shivaji Market",
+        "latitude": 18.5302,
+        "longitude": 73.8587,
+        "description": "A historic market in Pune, known for its fresh meat, seafood, and vegetables. A favorite among locals for its authenticity."
+      }
+    ],
+    "Nagpur": [
+      {
+        "name": "Orange City Mart",
+        "latitude": 21.1458,
+        "longitude": 79.0882,
+        "description": "A well-known supermarket offering fresh produce, groceries, and a variety of local delicacies. Popular among residents for its quality products."
+      },
+      {
+        "name": "Sitabuldi Market",
+        "latitude": 21.1511,
+        "longitude": 79.0827,
+        "description": "A vibrant market in the heart of Nagpur, famous for its clothing, electronics, and street food. A must-visit for bargain hunters."
+      },
+      {
+        "name": "Dharampeth Shopping Centre",
+        "latitude": 21.1440,
+        "longitude": 79.0720,
+        "description": "A popular shopping destination with a wide range of stores selling everything from jewelry to clothing and electronics."
+      }
+    ]
+  },
+  "Tamil Nadu": {
+    "Chennai": [
+      {
+        "name": "Express Avenue Mall",
+        "latitude": 13.0599,
+        "longitude": 80.2673,
+        "description": "A premier shopping mall in Chennai offering a mix of international and local brands, a food court, and a multiplex cinema."
+      },
+      {
+        "name": "Pondy Bazaar",
+        "latitude": 13.0418,
+        "longitude": 80.2344,
+        "description": "A bustling shopping area in T. Nagar known for its wide range of clothing, accessories, and electronics at affordable prices."
+      },
+      {
+        "name": "Phoenix Marketcity",
+        "latitude": 12.9890,
+        "longitude": 80.2185,
+        "description": "A large shopping mall in Velachery with a variety of retail stores, dining options, and entertainment facilities, including a cinema and play area."
+      }
+    ],
+    "Coimbatore": [
+      {
+        "name": "Brookefields Mall",
+        "latitude": 11.0046,
+        "longitude": 76.9616,
+        "description": "A popular shopping mall in Coimbatore featuring a mix of national and international brands, a food court, and entertainment options."
+      },
+      {
+        "name": "RS Puram Market",
+        "latitude": 11.0087,
+        "longitude": 76.9558,
+        "description": "A vibrant local market in RS Puram known for its fresh produce, groceries, and a variety of everyday essentials."
+      }
+    ]
+  },
+  "West Bengal": {
+    "Kolkata": [
+      {
+        "name": "Park Street Market",
+        "latitude": 22.5726,
+        "longitude": 88.3639,
+        "description": "A bustling marketplace in the heart of Kolkata, known for its vibrant atmosphere and wide range of products including books, clothing, and handicrafts."
+      },
+      {
+        "name": "New Market",
+        "latitude": 22.5618,
+        "longitude": 88.3528,
+        "description": "A historic shopping complex offering a variety of products including clothing, electronics, and food. A popular destination for locals and tourists alike."
+      }
+    ],
+    "South Kolkata": [
+      {
+        "name": "South City Mall",
+        "latitude": 22.5014,
+        "longitude": 88.3633,
+        "description": "One of the largest shopping malls in Kolkata, featuring a wide range of international and local brands, a food court, and a multiplex cinema."
+      },
+      {
+        "name": "Dakshinapan Shopping Complex",
+        "latitude": 22.5067,
+        "longitude": 88.3673,
+        "description": "A shopping complex in South Kolkata offering a range of handicrafts, textiles, and traditional Indian clothing. Popular among those looking for ethnic wear."
+      }
+    ]
+  },
+  "Telangana": {
+    "Hyderabad": [
+      {
+        "name": "Banjara Hills Superstore",
+        "latitude": 17.4239,
+        "longitude": 78.4738,
+        "description": "A premium supermarket in the upscale area of Banjara Hills, offering a wide variety of gourmet products and fresh produce."
+      },
+      {
+        "name": "Gachibowli Groceries",
+        "latitude": 17.4448,
+        "longitude": 78.3498,
+        "description": "A well-stocked grocery store in Gachibowli, popular among IT professionals and expats for its range of international products."
+      },
+      {
+        "name": "Charminar Market",
+        "latitude": 17.3616,
+        "longitude": 78.4747,
+        "description": "A historic market near the Charminar, offering traditional clothing, jewelry, and spices. A must-visit for a taste of old Hyderabad."
+      }
+    ]
+  }
+}
